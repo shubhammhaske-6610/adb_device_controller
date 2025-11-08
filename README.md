@@ -46,26 +46,24 @@ Make sure you have the following installed:
 - Android device with **USB Debugging** enabled  
 
 ### 2️⃣ Clone the Repository  
-```bash
-git clone https://github.com/<your-username>/adb-device-controller.git
-cd adb-device-controller
-3️⃣ Install Required Python Packages
-bash
-Copy code
-pip install pure-python-adb
-4️⃣ Start the ADB Server
-bash
-Copy code
-adb start-server
-5️⃣ Run the Script
-bash
-Copy code
-python adb-device-controller.py
-🧭 Usage Guide
-When you run the script, you’ll see an interactive menu like this:
 
-markdown
-Copy code
+git clone https://github.com/<shubhammhaske-6610>/adb-device-controller.git
+
+cd adb-device-controller
+
+3️⃣ Install Required Python Packages
+pip install pure-python-adb
+
+4️⃣ Start the ADB Server
+adb start-server
+
+5️⃣ Run the Script
+python adb-device-controller.py
+
+
+🧭 Usage Guide
+
+When you run the script, you’ll see an interactive menu like this:
 options:
 1. Check the device
 2. Home Button
@@ -85,6 +83,7 @@ options:
 16. Make Outgoing Call
 17. Send a Message
 18. Incoming Call
+
 💡 Example:
 
 Press 5 → Opens Google in your Android browser 🌐
@@ -114,10 +113,5 @@ If you like this project, don’t forget to star ⭐ the repository and share it
 Your support motivates me to build more awesome open-source tools 💪
 
 💬 “Control your Android — like a pro, right from your terminal!” 🚀
-yaml
-Copy code
-
----
-
 Would you like me to make it **GitHub-optimized with emojis and badges rendered inline (Markdown + HTML hybrid)** for maximum recruiter appeal (i.e., better formatting on your repo page)?  
 I can create that next.
